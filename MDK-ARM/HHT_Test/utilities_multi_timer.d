@@ -1,0 +1,9 @@
+hht_test\utilities_multi_timer.o: ..\Utilities\Utilities_Multi_Timer.c
+hht_test\utilities_multi_timer.o: ..\Utilities\Utilities_Multi_Timer.h
+hht_test\utilities_multi_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+hht_test\utilities_multi_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+hht_test\utilities_multi_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+hht_test\utilities_multi_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+hht_test\utilities_multi_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+hht_test\utilities_multi_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+hht_test\utilities_multi_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h

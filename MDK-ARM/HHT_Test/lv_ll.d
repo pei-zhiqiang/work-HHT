@@ -1,0 +1,11 @@
+hht_test\lv_ll.o: ..\GUI\lvgl\src\lv_misc\lv_ll.c
+hht_test\lv_ll.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+hht_test\lv_ll.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+hht_test\lv_ll.o: ..\GUI\lvgl\src\lv_misc\lv_ll.h
+hht_test\lv_ll.o: ..\GUI\lvgl\src\lv_misc\lv_mem.h
+hht_test\lv_ll.o: ..\GUI\lvgl\src\lv_misc\../../../lv_conf.h
+hht_test\lv_ll.o: ..\GUI\lvgl\src\lv_misc\../../../lvgl/src/lv_conf_checker.h
+hht_test\lv_ll.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+hht_test\lv_ll.o: ..\GUI\lvgl\src\lv_misc\lv_log.h
+hht_test\lv_ll.o: ..\GUI\lvgl\src\lv_misc\../../../lv_conf.h
+hht_test\lv_ll.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
