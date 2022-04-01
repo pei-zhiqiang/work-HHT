@@ -1064,6 +1064,46 @@
               <FileType>1</FileType>
               <FilePath>..\GUI_APP\app_test.c</FilePath>
             </File>
+            <File>
+              <FileName>my_font.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GUI_APP\my_font.c</FilePath>
+            </File>
+            <File>
+              <FileName>my_font1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GUI_APP\my_font1.c</FilePath>
+            </File>
+            <File>
+              <FileName>lv_app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GUI_APP\lv_app.c</FilePath>
+            </File>
+            <File>
+              <FileName>logo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GUI_APP\logo.c</FilePath>
+            </File>
+            <File>
+              <FileName>inf_bf_140.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GUI_APP\inf_bf_140.c</FilePath>
+            </File>
+            <File>
+              <FileName>inf_vol_35.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GUI_APP\inf_vol_35.c</FilePath>
+            </File>
+            <File>
+              <FileName>test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GUI_APP\test.c</FilePath>
+            </File>
+            <File>
+              <FileName>inf_bf_80.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\GUI_APP\inf_bf_80.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

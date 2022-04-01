@@ -36,6 +36,7 @@
 #include "lvgl.h"
 #include "TP_Port.h"
 #include "chsc6x_main.h"
+#include "lv_app.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -121,7 +122,9 @@ int main(void)
   /* LittleVGL 初始化 */
   LV_Init();
   
-  test_start();  // 运行测试代码
+  //test_start();  // 运行测试代码
+  
+  UI_Init();
   
   /* USER CODE END 2 */
 

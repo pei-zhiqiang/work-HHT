@@ -195,3 +195,4 @@ hht_test\main.o: ../GUI/lvgl/src/lv_objx/../../../lv_conf.h
 hht_test\main.o: ../GUI/lvgl/src/lv_draw/lv_img_cache.h
 hht_test\main.o: ../APP/Component/TP_Port.h
 hht_test\main.o: ../Drivers/USER_Driver/chsc6x_main.h
+hht_test\main.o: ../GUI_APP/lv_app.h

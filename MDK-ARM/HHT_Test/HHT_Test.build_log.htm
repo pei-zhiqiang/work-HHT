@@ -22,16 +22,21 @@ Dialog DLL:      TCM.DLL V1.48.0.0
  
 <h2>Project:</h2>
 C:\Users\DELL\Desktop\HHT\HHT_Test\MDK-ARM\HHT_Test.uvprojx
-Project File Date:  03/28/2022
+Project File Date:  03/31/2022
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'HHT_Test'
-compiling app_test.c...
+compiling lv_app.c...
+..\GUI_APP\lv_app.c(51): warning:  #177-D: variable "img_inf_charge"  was declared but never referenced
+  static lv_obj_t *img_inf_charge;
+..\GUI_APP\lv_app.c(76): warning:  #177-D: function "Init_Base_Inf"  was declared but never referenced
+  static void Init_Base_Inf(UI_IDX_Typedef_t idx, uint16_t lev, ui_func func, UI_IDX_Typedef_t par_idx)
+..\GUI_APP\lv_app.c: 2 warnings, 0 errors
 linking...
-Program Size: Code=60420 RO-data=46416 RW-data=176064 ZI-data=65816  
+Program Size: Code=72760 RO-data=195964 RW-data=176300 ZI-data=66052  
 FromELF: creating hex file...
-"HHT_Test\HHT_Test.axf" - 0 Error(s), 0 Warning(s).
+"HHT_Test\HHT_Test.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -55,7 +60,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.4.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:05
 </pre>
 </body>
 </html>
