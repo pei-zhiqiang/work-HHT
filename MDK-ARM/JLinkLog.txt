@@ -1,0 +1,124 @@
+T20C0 000:157.028   SEGGER J-Link V7.50 Log File
+T20C0 000:157.109   DLL Compiled: Jul  1 2021 17:37:28
+T20C0 000:157.113   Logging started @ 2022-03-21 03:08
+T20C0 000:157.116 - 157.118ms
+T20C0 000:157.124 JLINK_SetWarnOutHandler(...)
+T20C0 000:157.129 - 0.006ms
+T20C0 000:157.132 JLINK_OpenEx(...)
+T20C0 000:159.085   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T20C0 000:159.715   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T20C0 000:159.865   Decompressing FW timestamp took 126 us
+T20C0 000:168.241   Hardware: V9.50
+T20C0 000:168.261   S/N: 59521368
+T20C0 000:168.266   OEM: SEGGER
+T20C0 000:168.270   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T20C0 000:170.036   TELNET listener socket opened on port 19021
+T20C0 000:170.151   WEBSRV Starting webserver
+T20C0 000:170.336   WEBSRV Webserver running on local port 19080
+T20C0 000:170.344 - 13.212ms returns "O.K."
+T20C0 000:170.367 JLINK_GetEmuCaps()
+T20C0 000:170.371 - 0.005ms returns 0xB9FF7BBF
+T20C0 000:170.377 JLINK_TIF_GetAvailable(...)
+T20C0 000:170.667 - 0.296ms
+T20C0 000:170.686 JLINK_SetErrorOutHandler(...)
+T20C0 000:170.689 - 0.005ms
+T20C0 000:170.709 JLINK_ExecCommand("ProjectFile = "F:\TEST_WorkSpace\STM32H743VIT6_Algorithm_DFSDM_4MIC\MDK-ARM\JLinkSettings.ini"", ...). 
+T20C0 000:178.983   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T20C0 000:179.111   XML referenced by ref file: C:\Program Files\SEGGER\JLink_V750\JLinkDevices.xml
+T20C0 000:179.691   C:\Program Files\SEGGER\JLink_V750\JLinkDevices.xml evaluated successfully.
+T20C0 000:199.576 - 28.876ms returns 0x00
+T20C0 000:199.612 JLINK_ExecCommand("Device = STM32H743VITx", ...). 
+T20C0 000:202.844   Device "STM32H743VI" selected.
+T20C0 000:203.039 - 3.425ms returns 0x00
+T20C0 000:203.064 JLINK_GetHardwareVersion()
+T20C0 000:203.068 - 0.005ms returns 95000
+T20C0 000:203.072 JLINK_GetDLLVersion()
+T20C0 000:203.077 - 0.006ms returns 75000
+T20C0 000:203.081 JLINK_GetOEMString(...)
+T20C0 000:203.086 JLINK_GetFirmwareString(...)
+T20C0 000:203.089 - 0.004ms
+T20C0 000:203.096 JLINK_GetDLLVersion()
+T20C0 000:203.099 - 0.004ms returns 75000
+T20C0 000:203.103 JLINK_GetCompileDateTime()
+T20C0 000:203.106 - 0.004ms
+T20C0 000:203.111 JLINK_GetFirmwareString(...)
+T20C0 000:203.114 - 0.004ms
+T20C0 000:203.118 JLINK_GetHardwareVersion()
+T20C0 000:203.121 - 0.004ms returns 95000
+T20C0 000:203.126 JLINK_GetSN()
+T20C0 000:203.129 - 0.004ms returns 59521368
+T20C0 000:203.134 JLINK_GetOEMString(...)
+T20C0 000:203.139 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T20C0 000:205.230 - 2.099ms returns 0x00
+T20C0 000:205.243 JLINK_HasError()
+T20C0 000:205.261 JLINK_SetSpeed(5000)
+T20C0 000:205.523 - 0.267ms
+T20C0 000:205.808 JLINK_HasError()
+T20C0 000:205.816 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T20C0 000:205.819 - 0.005ms returns JLINKARM_RESET_TYPE_NORMAL
+T20C0 000:205.824 JLINK_Reset()
+T20C0 000:206.256   ConfigTargetSettings() start
+T20C0 000:206.264    J-Link Script File: Executing ConfigTargetSettings()
+T20C0 000:206.291   ConfigTargetSettings() end
+T20C0 000:208.222   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 000:208.823   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T20C0 000:263.399   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 000:264.096   
+  ***** Error: 
+T20C0 000:264.107   STM32: Connecting to CPU via connect under reset failed.
+T20C0 000:402.568   ConfigTargetSettings() start
+T20C0 000:402.636    J-Link Script File: Executing ConfigTargetSettings()
+T20C0 000:402.694   ConfigTargetSettings() end
+T20C0 000:405.500   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 000:406.365   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T20C0 000:466.551   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 000:467.562   
+  ***** Error: 
+T20C0 000:467.609   STM32: Connecting to CPU via connect under reset failed.
+T20C0 000:525.400 - 319.600ms
+T20C0 000:525.551 JLINK_GetIdData(pIdData)
+T20C0 000:526.109   ConfigTargetSettings() start
+T20C0 000:526.129    J-Link Script File: Executing ConfigTargetSettings()
+T20C0 000:526.202   ConfigTargetSettings() end
+T20C0 000:528.143   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 000:528.738   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T20C0 000:588.350   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 000:589.138   
+  ***** Error: 
+T20C0 000:589.166   STM32: Connecting to CPU via connect under reset failed.
+T20C0 000:727.760   ConfigTargetSettings() start
+T20C0 000:727.828    J-Link Script File: Executing ConfigTargetSettings()
+T20C0 000:727.884   ConfigTargetSettings() end
+T20C0 000:730.968   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 000:731.966   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T20C0 000:791.271   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 000:792.189   
+  ***** Error: 
+T20C0 000:792.235   STM32: Connecting to CPU via connect under reset failed.
+T20C0 000:851.504 - 326.003ms
+T20C0 000:851.659 JLINK_GetIdData(pIdData)
+T20C0 000:852.506   ConfigTargetSettings() start
+T20C0 000:852.559    J-Link Script File: Executing ConfigTargetSettings()
+T20C0 000:852.614   ConfigTargetSettings() end
+T20C0 000:855.678   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 000:856.595   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T20C0 000:914.840   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 000:915.799   
+  ***** Error: 
+T20C0 000:915.845   STM32: Connecting to CPU via connect under reset failed.
+T20C0 001:052.351   ConfigTargetSettings() start
+T20C0 001:052.420    J-Link Script File: Executing ConfigTargetSettings()
+T20C0 001:052.475   ConfigTargetSettings() end
+T20C0 001:055.494   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 001:056.600   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T20C0 001:116.255   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T20C0 001:116.807   
+  ***** Error: 
+T20C0 001:116.817   STM32: Connecting to CPU via connect under reset failed.
+T20C0 001:175.382 - 323.779ms
+T20C0 001:201.885 JLINK_GetFirmwareString(...)
+T20C0 001:201.897 - 0.014ms
+T20C0 003:132.052 JLINK_Close()
+T20C0 003:167.933 - 35.895ms
+T20C0 003:167.949   
+T20C0 003:167.966   Closed

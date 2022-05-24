@@ -45,6 +45,10 @@ void Timer_Port_Init(void);
 void Timer_Port_Start(void);
 /*获取运行时间*/
 uint32_t Timer_Port_Get_Current_Time(TIMER_TIME_UNIT_Typedef_t time_unit);
+/*设置参数检测定时器*/
+void Timer_Port_Set_Tim5(bool Cs, uint32_t Time_MS);
+/* 滴答回调 */
+void User_HAL_SYSTICK_Callback(void);
 
 #ifdef __cplusplus ///<end extern c
 }
